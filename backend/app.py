@@ -9,7 +9,7 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 CORS(app)
 db.init_app(app)
 
-# Automatically creates catalog.db if it doesn't exist yet
+
 with app.app_context():
     db.create_all()
 
