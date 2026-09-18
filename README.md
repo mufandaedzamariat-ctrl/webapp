@@ -46,3 +46,16 @@ A modern, full-stack apparel catalog application featuring an interactive React 
    ```bash
    git clone [https://github.com/mufandaedzamariat-ctrl/luxe-thread-co.git](https://github.com/mufandaedzamariat-ctrl/luxe-thread-co.git)
    cd luxe-thread-co
+Backend Setup:
+cd backend
+python -m venv env
+# Activate environment and install Flask
+pip install flask flask-cors
+python app.py
+Backend runs on http://127.0.0.1:5000
+
+Frontend Setup:
+cd ../frontend
+npm install
+npm run dev
+Frontend runs on http://localhost:5173
