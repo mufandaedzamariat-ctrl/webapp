@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import Navbar from './components/Navbar';
-import AdminForm from './components/AdminForm';
+import Navbar from './Navbar';
+import AdminForm from './AdminForm';
 
 export default function App() {
   const [products, setProducts] = useState([]);
